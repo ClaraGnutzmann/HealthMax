@@ -7,12 +7,20 @@ h1, h2, h3 {
 	font-size: Nunito, sans-serif;
 	color: darkred;
 }
+.button{
+	color: #FFFFFF;
+	text-decoration: none;
+	padding: 10px 30px;
+	background-color: #8B0000;
+	font-size: .9em;
+	border-radius: 3px;
+}
 
 nav {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	background-color: #191970;
+	background-color: #C0C0C0;
 }
 
 nav > a {
@@ -51,20 +59,62 @@ header {
 	align-items: lefth;
 	background-image:("../img/11,jpg");
 	background-size: cover;
-	background-repeat: ;
+	background-repeat: no-repeat;
+	color: #363636;
+	text-align: center;
 	padding: 20px;
+}
 
+header h1{
+	color: darkred;
+}
 
+#abbout {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	padding: 10px 10px 20px 20px;
+	color: #363636;
+}
 
+#abbout h2 {
+	color: #363636;
+}
 
+#abbout p {
+	margin-bottom: 2.5em;
+	max-width: 1000px;
+}
 
+#abbout .button{
+	background-color:#8B0000;
+	color: #FFFFFF;
+}
 
+#insurance {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 30px;
+	text-align: center;
+	margin-top: 30px;
+}
 
+#insurance div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	margin-top: 30px;
+}
 
-
-
-
-
-
-
+#plans{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 20px;
+}
+#plans h2 {
+	
 }
